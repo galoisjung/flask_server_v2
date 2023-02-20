@@ -1,0 +1,5 @@
+SQLALCHEMY_DATABASE_URI = 'postgresql://tarbuck:0399@localhost:5432/internship'
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+SECRET_KEY = "super"
+SESSION_TYPE = "filesystem"
+SESSION_COOKIE_PATH = '/'
