@@ -10,7 +10,6 @@ migrate = Migrate()
 login_manager = LoginManager()
 
 
-
 def create_app():
     app = Flask(__name__)
     app.config.from_object(config)
